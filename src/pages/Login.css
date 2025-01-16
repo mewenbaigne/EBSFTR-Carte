@@ -1,0 +1,24 @@
+/* Auth Dialog */
+
+.auth-dialog h2 {
+    color: white;
+    font-size: 16px;
+}
+
+.auth-dialog form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.auth-dialog input[type="password"] {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    border-color: "";
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+  

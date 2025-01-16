@@ -1,0 +1,84 @@
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  user-select: none; /* Propriété standard */
+}
+/* 
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+} */
+
+.map-container {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 20px;
+  width: 90%;
+  height: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.map-svg {
+  flex: 1 1;
+  max-width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.legend {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.excel {
+  height: 25%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.color-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.color-sample {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.euro-logo {
+  font-family: 'Arial',
+    sans-serif;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  user-select: none; /* Propriété standard */
+}
+
+button:hover {
+  background-color: #45a049;
+}

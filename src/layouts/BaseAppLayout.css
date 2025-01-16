@@ -1,0 +1,164 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* Exemple de déclaration pour public/fonts */
+@font-face {
+  font-family: 'Michroma';
+  src: local('Michroma'), url('/public/fonts/Michroma-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #131313; /* Couleur de fond plus foncée et sans transparence */
+  font-family: 'Michroma', sans-serif;
+  /* overflow: hidden; /* Évite le défilement si les éléments dépassent la page */
+  /* REACT WEBAPP not ELECTRON */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.app { 
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  width: 100%; /* ELECTRON */
+  height: 100%; /* ELECTRON */ /* S'assure que l'app prend toute la hauteur */
+  /*width: 800px; /* REACT WEB */
+  /*height: 570px; /* REACT WEB */
+  position: relative;
+  background-color: #131313; /* Couleur uniforme pour le fond */
+  overflow: hidden; /* Empêche le scroll de l'élément parent */
+}
+
+.main-page {
+  margin-top: 30px;
+  overflow-y: auto; /* Active le défilement vertical */
+  flex: 1;
+}
+
+.app-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 30px; /* Légèrement plus haut pour plus de visibilité */
+  background-color: #1a1a1a; /* Couleur un peu plus claire pour contraste */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+  -webkit-app-region: drag; /* Permet de dragger la fenêtre */
+  /* position: absolute; */
+  z-index: 1000; /* Assure que la toolbar reste au-dessus du contenu */
+}
+
+.toolbar-button {
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
+  cursor: pointer;
+  -webkit-app-region: no-drag; /* Les boutons ne doivent pas être draggables */
+}
+
+/* Title */
+.title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: 140.5%;
+  margin-top: 7%;
+  position: relative;
+  z-index: 1;
+  user-select: none;
+}
+
+select {
+  padding: 5px 10px;
+  background-color: #131313;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+input.input-box {
+  padding: 5px 10px;
+  background-color: #131313;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+h2 {
+  user-select: none; /* Propriété standard */
+
+}
+
+h3 {
+  user-select: none; /* Propriété standard */
+}
+
+h4 {
+  user-select: none; /* Propriété standard */
+}
+
+h5 {
+  margin: 20px;
+  color: white;
+  user-select: none; /* Propriété standard */
+}
+
+label {
+  user-select: none; /* Propriété standard */
+}
+
+span {
+  user-select: none; /* Propriété standard */
+}
