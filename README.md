@@ -26,7 +26,7 @@ npm run electron-dev
   
 <h2>💻 Créé avec</h2>
 
-Technologies used in the project:
+Technologies utilisées sur ce projet:
 
 *   React
 *   ElectronJS
