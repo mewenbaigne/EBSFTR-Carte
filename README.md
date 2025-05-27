@@ -13,7 +13,7 @@ Onglet Releases -> Téléchargez la version correspondant à votre système d'ex
 <p>2. Téléchargement (git)</p>
 
 ```
-git clone url_du_repo
+git clone https://github.com/mewenbaigne/EBSFTR-Carte
 ```
 
 <p>3. Lancement (git)</p>
